@@ -9,7 +9,7 @@ const Login = ({ onLogin }) => {
 
 
   const login = async () => {
-    // CRA React app >>> const res = await fetch(`${process.env.REACT_APP_SERVER_URL}/api/auth/login`, {
+    // CRA React app >>> const res = await fetch(`http://localhost:5000/api/auth/login`, {
     // Vite React app
     const res = await fetch(`${BASE_URL}/api/auth/login`, {
       method: "POST",
